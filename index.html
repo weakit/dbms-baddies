@@ -1,10 +1,110 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta charset="UTF-8">
+    <title>Batch A Baddies</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
 <body>
-    <p><a href="https://roshen.pages.dev/">Roshan's website</a></p>
-    <p><a href="https://corl0s.github.io/portfolio/">Vishnu's website</a></p>
+
+<h1>Batch A Baddies</h1>
+
+<h4>DBMS Baddie Projects</h4>
+
+<div class="list">
+    <div>
+        <p><a target="_blank" href="https://roshen.pages.dev">Baddie Roshan</a></p>
+    </div>
+    <div>
+        <p><a target="_blank" href="https://corl0s.github.io/portfolio/">Baddie Vishnu</a></p>
+    </div>
+    <div>
+        <p><a target="_blank" href="https://www.google.com">Baddie Sundar</a></p>
+    </div>
+    <div>
+        <p><a target="_blank" href="https://shwethaanand7.github.io/">Baddie Shwetha</a></p>
+    </div>
+</div>
+
 </body>
+
+<style>
+    a {
+        text-decoration: none;
+        transition: all 0.5s cubic-bezier(0, 0.71, 0.2, 1.01);
+    }
+
+    a::after {
+        transition: all 0.5s cubic-bezier(0, 0.71, 0.2, 1.01);
+        margin-left: 6px;
+        content: '-->';
+    }
+
+    a:hover {
+        font-weight: 700;
+    }
+
+    a:hover::after {
+        margin-left: 10px;
+    }
+
+    p {
+        margin: .75em 0;
+    }
+
+    html {
+        background: #1b1b1b;
+        color: #ededed;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    html {
+        user-select: none;
+        display: flex;
+        justify-content: center;
+        font-family: "Inter", 'Helvetica', sans-serif;
+    }
+
+    body {
+        padding: 0 1rem;
+        width: 100%;
+        max-width: 720px;
+    }
+
+    .pink {
+        background: deeppink;
+    }
+
+    .orange {
+        background: darkorange;
+    }
+
+    .green {
+        background: forestgreen;
+    }
+
+    .shwe {
+        background: purple;
+    }
+
+    .list a {
+        color: white;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-top: 1.5em;
+        margin-bottom: .5rem;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        margin-top: .5em;
+        margin-bottom: 1em;
+    }
+</style>
 
 </html>
